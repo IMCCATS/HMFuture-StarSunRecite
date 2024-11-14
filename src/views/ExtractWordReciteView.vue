@@ -213,7 +213,7 @@ const checkAnswers = () => {
   } else {
     const errorMessages = errors
       .map(error => {
-        return `空${error.index}有误哦：您输入的是“${error.userAnswer}”;
+        return `空${error.index}有误哦：您输入的是“${error.userAnswer”`;
       })
       .join('\n');
 
