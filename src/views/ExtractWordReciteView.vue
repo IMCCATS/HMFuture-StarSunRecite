@@ -58,9 +58,9 @@
 </template>
 
 <script setup>
-import { computed, onMounted, ref } from 'vue';
-import { MessagePlugin } from 'tdesign-vue-next';
-import { useBookStore } from '@/stores/book';
+import { computed, ref } from 'vue'
+import { MessagePlugin } from 'tdesign-vue-next'
+import { useBookStore } from '@/stores/book'
 
 const store = useBookStore();
 
@@ -209,10 +209,11 @@ const checkAnswers = () => {
 
   if (errors.length === 0) {
     MessagePlugin.success('全部正确！');
+    showAnswer();
   } else {
     const errorMessages = errors
       .map(error => {
-        return `空${error.index}有误哦：您输入的是“${error.userAnswer}””`;
+        return `空${error.index}有误哦：您输入的是“${error.userAnswer}”;
       })
       .join('\n');
 
