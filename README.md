@@ -1,36 +1,39 @@
-# HMFuture-StarSunRecite
+# 星阳背诵系统
 
-This template should help get you started developing with Vue 3 in Vite.
+欢迎使用星阳背诵系统！这是一款专为提升记忆力和学习效率设计的软件。无论您是准备考试的学生，还是希望扩展知识面的专业人士，星阳背诵系统都能帮助您更高效地掌握信息。
 
-## Recommended IDE Setup
+## 功能特性
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and
-disable Vetur).
+- **顺次背诵**：按照预设顺序逐一展示学习内容，适合初次接触新知识或按章节复习。
+- **随机背诵**：打乱所有学习条目的顺序进行测试，有助于提高记忆的灵活性和持久性。
+- **抽词背诵**：仅显示特定关键词或短语，帮助用户加深对关键点的记忆。
+- **便利背诵**：随时随地利用碎片化时间进行学习，支持多种设备同步，让学习不再受地点限制。
 
-## Customize configuration
+## 快速开始
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+1. **安装**：
+    - 访问[官方网站](https://recite.starsun.lcahy.cn)立即使用。
+    - 无需安装任何软硬件，只需在支持网页浏览的设备上访问即可。
 
-## Project Setup
+2. **添加学习资料**：
+    - 在主界面选择“书籍管理”，输入名称并保存。
+    - 通过“资源管理”功能，输入您想要背诵的内容，如单词、句子、知识点等。
 
-```sh
-pnpm install
-```
+3. **开始背诵**：
+    - 选择一种背诵模式（顺次、随机或抽词），点击“开始”即可进入学习状态。
 
-### Compile and Hot-Reload for Development
+## 常见问题
 
-```sh
-pnpm dev
-```
+- **如何修改已有的学习资料？**
+    - 在资料列表中找到需要编辑的条目，一旁有编辑选项，您可以在此处更新或删除内容。
 
-### Compile and Minify for Production
+## 用户反馈
 
-```sh
-pnpm build
-```
+我们非常重视每一位用户的体验和建议。如果您有任何意见或建议，都可告诉我们。您的支持是我们不断改进的动力！
 
-### Lint with [ESLint](https://eslint.org/)
+## 更新日志
 
-```sh
-pnpm lint
-```
+- **v1.0.0** (2024-11-19)
+    - 首个公开版本发布，包含基本的顺次背诵、随机背诵、抽词背诵功能。
+
+感谢您选择星阳背诵系统，祝您学习愉快！
