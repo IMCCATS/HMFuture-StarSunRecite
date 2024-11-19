@@ -18,15 +18,8 @@
       © 2020 - {{ new Date().getFullYear() }} Changge Group.
       <br />
       Powered by HuiMengFuture Network Technology Studios.
-    </t-typography-paragraph>
-    <t-typography-paragraph>
-      开发经理：小研同学
       <br />
-      项目总监：乔嘉诚
-      <br />
-      特别致谢（无先后顺序）：腾讯云计算（北京）有限公司；佛山市爱达斯科技有限公司
-      <!--      <br />-->
-      <!--      腾讯云 提供计算服务-->
+      Developed by 小研同学.
     </t-typography-paragraph>
   </t-card>
 </template>

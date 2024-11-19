@@ -1,7 +1,12 @@
 {
   "name": "xyz.huimengfuture.studio.starsun.recite",
   "version": "1.0.0",
-  "private": true,
+  "description": "",
+  "author": {
+    "name": "HuiMengFuture Network Technology Studios"
+  },
+  "license": "EPL-2.0",
+  "private": false,
   "scripts": {
     "dev": "vite",
     "build": "vite build",

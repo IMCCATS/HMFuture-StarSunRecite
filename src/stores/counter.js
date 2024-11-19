@@ -1,3 +1,4 @@
+//保留原文档示例
 import { computed, ref } from 'vue';
 import { defineStore } from 'pinia';
 

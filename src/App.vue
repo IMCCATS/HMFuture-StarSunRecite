@@ -128,10 +128,6 @@ watch(route, newRoute => {
         <t-content style="max-height: 88vh; overflow-y: auto; padding: 10px">
           <RouterView />
         </t-content>
-        <t-footer
-          >&copy; 2020 - {{ new Date().getFullYear() }} 畅哥集团 |
-          辉梦未来网络科技工作室 版权所有.
-        </t-footer>
       </t-layout>
     </t-layout>
   </t-config-provider>
